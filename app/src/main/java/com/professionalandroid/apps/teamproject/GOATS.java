@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class GOATofGOAT extends AppCompatActivity {
+public class GOATS extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
