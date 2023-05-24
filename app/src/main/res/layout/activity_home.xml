@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/campusImage"
+        android:layout_width="429dp"
+        android:layout_height="572dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/cpsImage"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/campus_img" />
+
+    <ImageButton
+        android:id="@+id/ctHallButton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_more"
+        android:contentDescription="@string/centtinalHall" />
+
+    <ImageButton
+        android:id="@+id/lbHallButton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_more"
+        android:contentDescription="@string/liberalHall" />
+
+    <ImageButton
+        android:id="@+id/lgHallButton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/languageHall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_more" />
+
+    <TextView
+        android:id="@+id/info_egHall"
+        android:layout_width="416dp"
+        android:layout_height="160dp"
+        android:text="@string/egHall_explain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campusImage"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/info_ctHall"
+        android:layout_width="416dp"
+        android:layout_height="160dp"
+        android:text="@string/ctHall_explain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campusImage"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/info_lbHall"
+        android:layout_width="416dp"
+        android:layout_height="160dp"
+        android:text="@string/lbHall_explain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campusImage"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/info_lgHall"
+        android:layout_width="416dp"
+        android:layout_height="160dp"
+        android:text="@string/lgHall_explain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campusImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/egHallButton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/campusImage"
+        app:srcCompat="@android:drawable/ic_menu_more"
+        android:contentDescription="@string/engineeringHall" />
+
+    <Button
+        android:id="@+id/in_ctHallButton"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:text="@string/getinText"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/in_egHallButton"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:text="@string/getinText"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/in_lbHallButton"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:text="@string/getinText"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/in_lgHallButton"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:text="@string/getinText"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

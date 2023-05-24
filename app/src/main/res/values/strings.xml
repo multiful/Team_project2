@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">TeamProject</string>
+    <string name="egHall_explain">공학관 설명</string>
+    <string name="ctHall_explain">백년관 설명</string>
+    <string name="lbHall_explain">교양관 설명</string>
+    <string name="lgHall_explain">어문학관 설명</string>
+    <string name="storyLine">님 안녕하세요!</string>
+    <string name="cpsImage">campusImage</string>
+    <string name="centtinalHall">centtinalHall</string>
+    <string name="liberalHall">liberalHall</string>
+    <string name="languageHall">languageHall</string>
+    <string name="engineeringHall">engineeringHall</string>
+    <string name="engquiz">나는 산에 살지만, 바다에는 살지 못해요. 나는 사방 모든 것에 존재해요, 나는 슬플 때가 많아요. 나는 모든 것을 크게 해줘요. 나는 누구일까요? (영어변환 문제)</string>
+    <string name="ans">정답</string>
+    <string name="language_Setting">Language Setting</string>
+    <string name="korean">한국어</string>
+    <string name="english">영어</string>
+    <string name="japanese">일본어</string>
+    <string name="back">뒤로가기</string>
+    <string name="enterName">이름을 입력하세요</string>
+    <string name="start">시작하기</string>
+    <string name="gameTitle">게임제목</string>
+    <string name="homeImage">homeImage</string>
+    <string name="skipButtonText">skip\n</string>
+    <string name="getinText">입장하기</string>
 </resources>
