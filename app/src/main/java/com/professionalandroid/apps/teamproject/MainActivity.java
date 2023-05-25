@@ -7,9 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import android.widget.EditText;
-import android.widget.ImageButton;
-
 public class MainActivity extends AppCompatActivity {
 
 
@@ -19,23 +16,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final EditText userName =(EditText) findViewById(R.id.userName);
-        Button startButton = (Button) findViewById(R.id.startButton);
-        ImageButton languageButton = (ImageButton) findViewById(R.id.homeImage);
-        startButton.setOnClickListener(new View.OnClickListener() {
+        btn = findViewById(R.id.mybtn);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                String name =userName.getText().toString();
-                Intent intent =new Intent(getApplicationContext(),storyActivity.class);
-                intent.putExtra("userName",name);
-                startActivity(intent);
-            }
-        });
-        languageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent intent =new Intent(getApplicationContext(),languageActivity.class);
-                startActivity(intent);
+            public void onClick(View view) {
+                Intent myintent = new Intent(getApplicationContext(),quiz1.class);
+                startActivity(myintent);
             }
         });
     }
